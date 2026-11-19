@@ -19,12 +19,8 @@ the relevant test and product code, and shows the assessment to the user.
 [striatum](https://github.com/hbelmiro/striatum) packs, pushes, and installs
 skills as OCI artifacts.
 
-From a published version — check the available tags at
-<https://quay.io/repository/hbelmiro/tfa-assessment-skill?tab=tags> and
-replace `999-SNAPSHOT` with the proper tag:
-
 ```bash
-striatum install quay.io/hbelmiro/tfa-assessment-skill:999-SNAPSHOT --target claude
+striatum install quay.io/hbelmiro/tfa-assessment-skill:latest --target claude
 ```
 
 From source, in the repo root:
